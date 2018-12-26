@@ -47,16 +47,5 @@ class ResetPassword extends Notification
                     ->line('如果您并没有执行此操作，您可以选择忽略此邮件。');
     }
 
-    /**
-     * Get the array representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return array
-     */
-    public function toArray($notifiable)
-    {
-        return [
-            //
-        ];
-    }
+
 }
